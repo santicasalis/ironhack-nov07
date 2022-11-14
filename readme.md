@@ -7,7 +7,7 @@
   Este repositorio sirve como una guia para la clase de FE Dev - Vue Conforcat. Done estaremos apendiendo acerca de HTML, CSS3, Javascript, Vue & Supabase.
 </p>
  <p align="center" style="font: 16px">
- Creado con ❤️ por Diego Zito, Carlos Garrido & Aleix Abuli.
+ Creado con ❤️ por Diegoo Zito, Carlos Garrido & Aleix Abuli.
 </p>
 
 ## Link a Zoom
@@ -52,6 +52,8 @@ Agregr sus canciones favoritas a esta playlist en spotify!
 
 ## Links de Ayuda
 
+- [CSS Frameworks](#css-frameworks)
+  - [Tailwind CSS](https://tailwindcss.com/)
 - [Chuletas](#Chuletas)
   - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
   - [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -59,6 +61,14 @@ Agregr sus canciones favoritas a esta playlist en spotify!
   - [Css Cheatsheet](https://devhints.io/css)
 - [Videos](#videos)
   - [Welcome to the Internet - Bo Burnham](https://www.youtube.com/watch?v=k1BneeJTDcU)
+- [Icon Libraries](#icon-libraries)
+  - [Font Awesome](https://fontawesome.com/)
+  - [The Noun Project](https://thenounproject.com/)
+- [Tools and Helpful Links](#tools)
+  - [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
+  - [CSS Flex Generator](https://flexbox.help/)
+  - [CSS Shadows](https://htmlcssfreebies.com/css-box-shadow-examples/)
+  - [CSS Animations](https://animista.net/)
 
 ## Comandos de Git
 
@@ -93,7 +103,7 @@ git push origin "nombre del branch/rama que estaremos apuntando"
 `Empujar` los cambios recientes a tu repositorio en la web. `Simplified`.
 
 ```bash
-git pushs
+git push
 ```
 
 ### Combinations
