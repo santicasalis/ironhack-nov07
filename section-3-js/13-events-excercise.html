@@ -19,6 +19,7 @@
     <!-- Ejercicio 1 -->
     <h1 id="ex1h1">Todavía no me han modificado</h1>
     <button id="ex1btn">Click me now please!!</button>
+    <!-- <button onclick="clickedMe()">Click me now please!! - 2</button> -->
 
     <!-- Ejercicio 2 -->
     <h1 id="ex2h1">OFF</h1>
@@ -47,6 +48,24 @@
 
       const ex1h1 = document.getElementById("ex1h1");
       const ex1btn = document.getElementById("ex1btn");
+
+      // V-01
+      // Arrow function - metodo addEventListener(), con el tipo de evento + la funcion
+      // const changeText = () => (ex1h1.innerText = "Ya he man dado click");
+      // ex1btn.addEventListener("click", changeText);
+
+      //V-02
+      // apuntando directo la variable, concatenamos, el metodo eventlistener() y en vez de llamar a una funcion, ejecutamos una expression(funcion sin nombre autoEJecutable) para que se ejecute el contenido dentro y dentro podemos llamar a la variable del h1 y con la propiedad innerText le cambiamos el valor del texto.
+      // ex1btn.addEventListener(
+      //   "click",
+      //   () => (ex1h1.innerText = "Ya he man dado click")
+      // );
+
+      //V-03
+      // apuntamos a la variable y omitimos el metodo de eventListener y le pasamos directo el tipo de evento que queremos + una expression mediante una funcion tipo flecha y dentro podemos llamar a la variable del h1 y con la propiedad innerText le cambiamos el valor del texto.
+      ex1btn.onclick = () => {
+        ex1h1.innerText = "Ya he man dado click";
+      };
 
       // Ejercicio 2. Toggle.
       // Imaginemos que tenemos un pequeño aparato que se puede encender y apagar con un botón.
